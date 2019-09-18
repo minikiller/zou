@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+pyinstaller = "*"
+
+[packages]
+vb2py = "*"
+cython = "*"
+pyjnius = "*"
+
+[requires]
+python_version = "2.7"
