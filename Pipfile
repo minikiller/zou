@@ -10,6 +10,12 @@ pyinstaller = "*"
 vb2py = "*"
 cython = "*"
 pyjnius = "*"
+flask = "*"
 
 [requires]
 python_version = "2.7"
+
+[scripts]
+start="pip list"
+flask="python run_flask.py"
+call="python call_java.py"
